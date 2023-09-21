@@ -9,14 +9,15 @@
     "@data": "./data"
   },
   "scripts": {
-    "start": "nodemon server/server.ts",
+    "server": "nodemon server/server.ts",
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "test": "CI=true vitest",
     "prepare": "husky install",
-    "fixtures": "node data/generateDevices.js"
+    "fixtures": "node data/generateDevices.js",
+    "start": "concurrently --kill-others \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
     "@faker-js/faker": "^8.1.0",
@@ -41,6 +42,7 @@
     "@vitejs/plugin-react": "^3.0.1",
     "@vue/compiler-sfc": "^3.2.45",
     "autoprefixer": "^10.4.13",
+    "concurrently": "^8.2.1",
     "eslint": "^8.32.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript-prettier": "^5.0.0",

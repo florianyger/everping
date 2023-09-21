@@ -40,3 +40,8 @@ Put a Ant Design button on page, and a fake test, all works !
 ## Third step - generate devices (15 min)
 
 A little help from this post : https://stackoverflow.com/a/62566822
+
+## Fourth step - npm script (10 min)
+
+Launch in parallel back and front end in one command, thank you internet :
+https://stackoverflow.com/a/30950298
