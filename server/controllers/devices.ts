@@ -15,9 +15,7 @@ export const getDevice = async (req: Request, res: Response) => {
 
     if (data.length > 0) {
       const results: { devices: Device[] } = JSON.parse(data);
-      device = {
-        ...results.devices.find((deviceResult) => deviceResult.clientId === deviceId),
-      };
+      device = [...results.devices.filter((deviceResult) => deviceResult.clientId === deviceId)];
     }
 
     setTimeout(() => {
