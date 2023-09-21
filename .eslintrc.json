@@ -21,7 +21,16 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-props-no-spreading": "warn",
     "react/jsx-filename-extension": ["error", { "extensions": [".jsx", ".tsx"] }],
-    "react/function-component-definition": ["warn", { "namedComponents": "function-declaration" }]
+    "react/function-component-definition": ["warn", { "namedComponents": "function-declaration" }],
+    "import/no-extraneous-dependencies":[
+      "error",
+      {
+        "devDependencies":[
+          "**/*.test.ts",
+          "**/*.test.tsx"
+        ]
+      }
+    ]
   },
   "settings": {
     "import/resolver": {

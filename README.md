@@ -1,53 +1,38 @@
-# Starting point for React apps
+# Everping - Florian Yger
 
-[![Build & deploy](https://github.com/nbilalis/react-vite-ts-eslint-prettier-template/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/nbilalis/react-vite-ts-eslint-prettier-template/actions/workflows/build-deploy.yml) [![Create Archive](https://github.com/nbilalis/react-vite-ts-eslint-prettier-template/actions/workflows/create-release.yml/badge.svg)](https://github.com/nbilalis/react-vite-ts-eslint-prettier-template/actions/workflows/create-release.yml)
+## First step - reading and understanding subject (10 min)
 
-This is an opinionated starting point, to get you going with React & Vite.
+Backend : Simple JSON file served by API, with a setTimeout
 
-## It uses
+I will use fakerJS to generate JSON, i do not have time to generate lots of data manually
 
-- Vite
-- TypeScript
-- ESLint
-- Prettier
-- React Router
-- Scoped SCSS
+I will need : Express, Typescript, Nodemon, FakerJS
 
-## Steps to reproduce
+Searching for template ...
 
-1. Create Vite with the `react-ts` template
-    - ![favicon](https://www.google.com/s2/favicons?domain=vitejs.dev) [Getting Started | Vite](https://vitejs.dev/guide/)
-    - Run on of the following:
-      - `yarn create vite <project-name> --template react-ts`
-      - `npm init vite@latest <project-name> --template react-ts`
-1. Install necessary packages
-    - `cd <project-name>`
-    - Run one of the following:
-      - `yarn install` or just `yarn`
-      - `npm install`
-1. Install template packages
-    - ![favicon](https://www.google.com/s2/favicons?domain=www.npmjs.com) [eslint-config-airbnb-typescript-prettier - npm](https://www.npmjs.com/package/eslint-config-airbnb-typescript-prettier)
-    - `yarn add typescript eslint prettier eslint-config-airbnb-typescript-prettier --dev`
-    - `npm install typescript eslint prettier eslint-config-airbnb-typescript-prettier --save-dev`
-1. Add ESLint template
-    - make a `.eslintrc.js` file, with the following contents:
+Found https://github.com/bpk68/api-server-starter-ts
 
-      ```js
-      module.exports = {
-        extends: "airbnb-typescript-prettier"
-      };
-      ```
+I will integrate it to front end template.
 
-## Start the development server
+------
 
-`yarn dev` or `npm run dev`
+Frontend : Simple table with pagination and filter
 
-## Build the distributable
+I will need : React, Typescript, Ant Design
 
-`yarn build` or `npm run build`
+I will use a template that i know
+https://github.com/nbilalis/react-vite-ts-eslint-prettier-template
 
-## Serve the distributable
+There are Vite, ESLint/Prettier/Airbnb codestyle, wonderful !
 
-`yarn serve` or `npm run serve`
+## Second step - project initialization (45 min)
 
-**NOTE**: You have to build it first.
+Retrieve template, install Faker, Ant Design, Vitest, Husky.
+
+Developing simple JSON served by API, according to template found, works like a charm, except module-alias.
+
+No time to debug, we will import files the old way.
+
+No time for cleaning useless files, sorry :)
+
+Put a Ant Design button on page, and a fake test, all works !

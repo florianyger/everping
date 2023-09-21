@@ -1,0 +1,22 @@
+{
+	"devices": [
+    {
+      "id": "2456",
+      "clientId": "flash",
+      "manufacturer": "LENOVO",
+      "model": "81Y4",
+      "serialNumber": "KJHB785757IU",
+      "cpu": "Intel(R) Core(TM) i5-10310U CPU @ 1.70GHz",
+      "ram": 16,
+      "storage": 512,
+      "hardwareId": "VEN_1000&DEV_OOO1&SUBSYS_00000000&REV_02",
+      "security": {
+        "firewall": true,
+        "antivirus": false,
+        "encryption": true
+      },
+      "user": "john.doe@gmail.com",
+      "lastCheckInDate": 1686669089
+    }
+  ]
+}
