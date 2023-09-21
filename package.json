@@ -15,7 +15,8 @@
     "preview": "vite preview",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
     "test": "CI=true vitest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "fixtures": "node data/generateDevices.js"
   },
   "dependencies": {
     "@faker-js/faker": "^8.1.0",

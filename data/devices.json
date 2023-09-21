@@ -1,22 +1,1804 @@
 {
 	"devices": [
-    {
-      "id": "2456",
-      "clientId": "flash",
-      "manufacturer": "LENOVO",
-      "model": "81Y4",
-      "serialNumber": "KJHB785757IU",
-      "cpu": "Intel(R) Core(TM) i5-10310U CPU @ 1.70GHz",
-      "ram": 16,
-      "storage": 512,
-      "hardwareId": "VEN_1000&DEV_OOO1&SUBSYS_00000000&REV_02",
-      "security": {
-        "firewall": true,
-        "antivirus": false,
-        "encryption": true
-      },
-      "user": "john.doe@gmail.com",
-      "lastCheckInDate": 1686669089
-    }
-  ]
+		{
+			"id": "e2887571-acb7-4112-9602-63d46c3eb482",
+			"clientId": "Ullrich",
+			"manufacturer": "Hettinger Inc",
+			"model": "Cn7A",
+			"serialNumber": "UJ0lDawXOU5X",
+			"cpu": "since koala unbearably bah aggressive",
+			"ram": 8,
+			"storage": 4096,
+			"hardwareId": "ba4b46ae-7f34-4531-bd2d-ea99aff0ea67",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Kasey_Graham-Bruen@hotmail.com",
+			"lastCheckInDate": 1674787484236
+		},
+		{
+			"id": "a96fc035-9b5f-4422-a18c-1ebbe32737ee",
+			"clientId": "Upton",
+			"manufacturer": "Collins - Cronin",
+			"model": "xpBL",
+			"serialNumber": "UlOwRWveAgd3",
+			"cpu": "onto unimpressively keenly beside charter",
+			"ram": 2,
+			"storage": 256,
+			"hardwareId": "80867091-e6e1-406d-a3eb-a4fa4bbca371",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Kaylie.MacGyver@hotmail.com",
+			"lastCheckInDate": 1673553917280
+		},
+		{
+			"id": "2b2073a6-554f-4a7b-b87e-edce7c3c5e86",
+			"clientId": "Upton",
+			"manufacturer": "Ruecker - Wiza",
+			"model": "0uq6",
+			"serialNumber": "eDDN62nePn25",
+			"cpu": "beyond unsightly partridge wasabi reliable",
+			"ram": 8,
+			"storage": 1024,
+			"hardwareId": "b8e31979-966d-4f0d-9cdd-faf91e5d08c6",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Elisa_Kuhn@yahoo.com",
+			"lastCheckInDate": 1690494667528
+		},
+		{
+			"id": "3619bb65-7f0c-4f97-868a-031b29ca5bec",
+			"clientId": "Bednar",
+			"manufacturer": "Bins, Lubowitz and Leannon",
+			"model": "rte8",
+			"serialNumber": "BPgI0DMxf0Ua",
+			"cpu": "sans tensely qua sans below",
+			"ram": 16,
+			"storage": 1024,
+			"hardwareId": "45741ca7-98d4-432a-a392-e9e9d8b96c0e",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Norval.Cummings@yahoo.com",
+			"lastCheckInDate": 1672611697332
+		},
+		{
+			"id": "4775ede0-0a26-48ba-ae69-c4046c1c7053",
+			"clientId": "Bednar",
+			"manufacturer": "Nitzsche, Moore and Gleichner",
+			"model": "0X47",
+			"serialNumber": "4N82tZlo90Dw",
+			"cpu": "speculate frugal if wash uh-huh",
+			"ram": 4,
+			"storage": 256,
+			"hardwareId": "e29cf9db-d09d-4796-be9c-e9fe789b706a",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Hailee77@gmail.com",
+			"lastCheckInDate": 1667951497792
+		},
+		{
+			"id": "8eac2a33-f3eb-4bdb-b565-65c187d6af57",
+			"clientId": "Parker",
+			"manufacturer": "Gottlieb - Osinski",
+			"model": "Nlbq",
+			"serialNumber": "fapCG0YM9WtE",
+			"cpu": "than oxygen boohoo worn um",
+			"ram": 8,
+			"storage": 256,
+			"hardwareId": "3dc1d8ae-73fe-4e8a-a568-3d1fe0fbd632",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Ibrahim58@yahoo.com",
+			"lastCheckInDate": 1688744729345
+		},
+		{
+			"id": "7350f5f7-be99-4702-860c-299c85f7097f",
+			"clientId": "Parker",
+			"manufacturer": "Kunze and Sons",
+			"model": "I1RB",
+			"serialNumber": "LAclF5Adwnkl",
+			"cpu": "whoa fatally although fen geez",
+			"ram": 4,
+			"storage": 128,
+			"hardwareId": "b1df4c89-4b82-4e59-ae5b-4ae5234a6b0a",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Geovany.Mertz99@yahoo.com",
+			"lastCheckInDate": 1675669526025
+		},
+		{
+			"id": "5a95d5b2-7bb3-4c88-9919-a4cc692c2fb1",
+			"clientId": "Parker",
+			"manufacturer": "Nader, Kozey and Cassin",
+			"model": "WYJ0",
+			"serialNumber": "VXX2nJD9vqqw",
+			"cpu": "patiently aha bitter fixed bah",
+			"ram": 16,
+			"storage": 2048,
+			"hardwareId": "64a98c8d-7951-42dd-acdd-4f9f12f9b1d0",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Madie89@yahoo.com",
+			"lastCheckInDate": 1672528035289
+		},
+		{
+			"id": "69c6edde-a94f-415a-8331-54aee6abb09d",
+			"clientId": "Gerhold",
+			"manufacturer": "Konopelski - Hills",
+			"model": "EJEs",
+			"serialNumber": "XssU0mxALAzw",
+			"cpu": "tart fairly wordy consequently tremendously",
+			"ram": 32,
+			"storage": 64,
+			"hardwareId": "43a24b73-0379-4962-9fc3-d854127d4c3a",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Jewel.Denesik@hotmail.com",
+			"lastCheckInDate": 1668039860706
+		},
+		{
+			"id": "c28d962a-01db-4a34-adc3-5b641a98c421",
+			"clientId": "Huel",
+			"manufacturer": "Wuckert - Schroeder",
+			"model": "RjqD",
+			"serialNumber": "Zs5Znj9kzx3q",
+			"cpu": "boo excluding hourly demonstrate appreciate",
+			"ram": 2,
+			"storage": 64,
+			"hardwareId": "00d7f64a-c52f-4ac0-b4a5-a00390cf25af",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Rosendo.Brekke53@gmail.com",
+			"lastCheckInDate": 1669144634087
+		},
+		{
+			"id": "8b810a6f-0cfd-46ca-8a93-c9b417c18cb6",
+			"clientId": "Gerhold",
+			"manufacturer": "Halvorson - Russel",
+			"model": "8vZE",
+			"serialNumber": "Nj2YHWoZ5BSL",
+			"cpu": "fork searchingly underneath or minus",
+			"ram": 16,
+			"storage": 64,
+			"hardwareId": "70555e7a-5461-4cf9-ac1d-37ef78ebfb04",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Jaydon_Lindgren52@gmail.com",
+			"lastCheckInDate": 1687674768781
+		},
+		{
+			"id": "1808ec82-3900-4b14-bd84-58a2ccf27de7",
+			"clientId": "Bednar",
+			"manufacturer": "Ortiz Group",
+			"model": "mx8P",
+			"serialNumber": "XpWE4ZnH1ulj",
+			"cpu": "an shrilly along knottily hence",
+			"ram": 2,
+			"storage": 1024,
+			"hardwareId": "ca4947a7-f473-4f9e-806a-d1749f10ee30",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Peyton62@hotmail.com",
+			"lastCheckInDate": 1674571364911
+		},
+		{
+			"id": "68c675c5-752c-4393-b9d1-31ea50e63b50",
+			"clientId": "Kuphal",
+			"manufacturer": "Kirlin Group",
+			"model": "qCTs",
+			"serialNumber": "c4k2wciDWlzx",
+			"cpu": "from brr recklessly handgun huzzah",
+			"ram": 4,
+			"storage": 128,
+			"hardwareId": "727d3c6f-8d9d-4f5b-a99f-adc063e75203",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Joan_Jacobson@hotmail.com",
+			"lastCheckInDate": 1682236119976
+		},
+		{
+			"id": "e7ba5e96-34c7-47ff-bcab-9023b5e26802",
+			"clientId": "Ullrich",
+			"manufacturer": "Legros - Nienow",
+			"model": "vbUx",
+			"serialNumber": "MI7AHWQQlxa7",
+			"cpu": "unaccountably after finally amidst taste",
+			"ram": 64,
+			"storage": 256,
+			"hardwareId": "09e9f3c3-d181-4361-a43a-32237b87f750",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Roosevelt94@hotmail.com",
+			"lastCheckInDate": 1686476146408
+		},
+		{
+			"id": "582ccaa3-6ddd-4ffb-a2ec-474aa450538d",
+			"clientId": "Upton",
+			"manufacturer": "Wiegand - Beahan",
+			"model": "nLyt",
+			"serialNumber": "LEdYczmJ5KUO",
+			"cpu": "aw by barring amongst refurbish",
+			"ram": 16,
+			"storage": 512,
+			"hardwareId": "d80f7051-1091-4fa4-9074-bae84abe00b4",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Ariel.Gerhold70@gmail.com",
+			"lastCheckInDate": 1684637905573
+		},
+		{
+			"id": "54cd58c8-dcda-45cc-8f4e-1c2c8c68b79f",
+			"clientId": "Bednar",
+			"manufacturer": "Yost Inc",
+			"model": "eoQf",
+			"serialNumber": "zwDmc7Ci0J9X",
+			"cpu": "highly bravely than and pressurise",
+			"ram": 32,
+			"storage": 256,
+			"hardwareId": "2c043563-30b6-4b6f-a359-5e2964efaeb1",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Wilhelmine92@yahoo.com",
+			"lastCheckInDate": 1688901407722
+		},
+		{
+			"id": "a0f0ad4d-3765-45f0-a3f9-169e567761e7",
+			"clientId": "Gerhold",
+			"manufacturer": "Rodriguez - Huel",
+			"model": "SPig",
+			"serialNumber": "8BxRCHgCwfSX",
+			"cpu": "including oof apropos wonderfully likewise",
+			"ram": 2,
+			"storage": 1024,
+			"hardwareId": "88cd7fb9-013e-4a88-b0da-e249edb3255d",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Alia_Bode@yahoo.com",
+			"lastCheckInDate": 1681467387693
+		},
+		{
+			"id": "d2c36188-1148-4e51-9713-7be857800605",
+			"clientId": "Upton",
+			"manufacturer": "McCullough - O'Connell",
+			"model": "uN13",
+			"serialNumber": "8JK4yEDYyr7M",
+			"cpu": "sharply codepage quarrelsomely off liver",
+			"ram": 32,
+			"storage": 512,
+			"hardwareId": "39f9ca81-37ba-440f-8812-2cb4ff268261",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Reilly89@hotmail.com",
+			"lastCheckInDate": 1687350118143
+		},
+		{
+			"id": "7486b017-8f89-4daf-8838-9ea104c1ef0b",
+			"clientId": "Halvorson",
+			"manufacturer": "Thompson - Hodkiewicz",
+			"model": "NjsC",
+			"serialNumber": "oPmFO3ZRNiRi",
+			"cpu": "only restrict since whereas sugar",
+			"ram": 4,
+			"storage": 4096,
+			"hardwareId": "38257169-0ac0-4e34-9a31-385e65bb5a37",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Urban_Steuber-Kassulke73@yahoo.com",
+			"lastCheckInDate": 1664910856635
+		},
+		{
+			"id": "ea461309-0942-4d66-ba8a-85a9ca626271",
+			"clientId": "Kuphal",
+			"manufacturer": "Johnson, Hahn and Berge",
+			"model": "fy3Q",
+			"serialNumber": "WxiRzABZ44ju",
+			"cpu": "which aw buttery green company",
+			"ram": 2,
+			"storage": 64,
+			"hardwareId": "e72e4350-2806-4a44-be25-d77bacf34a57",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Raina_Kerluke@gmail.com",
+			"lastCheckInDate": 1668306934672
+		},
+		{
+			"id": "4327bcc3-a4e0-4c2f-beea-e4e886bd270e",
+			"clientId": "Zieme",
+			"manufacturer": "Kohler, Pagac and Crist",
+			"model": "UvKP",
+			"serialNumber": "TxIQeUI8FHdV",
+			"cpu": "shameful which ack radiant enthusiastically",
+			"ram": 32,
+			"storage": 2048,
+			"hardwareId": "3ec18ba2-00a1-460d-b7f3-71e2f634978b",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Ova_Leuschke67@gmail.com",
+			"lastCheckInDate": 1691370781177
+		},
+		{
+			"id": "9da28856-b2f5-4f50-84c7-4fac93e0b2d1",
+			"clientId": "Zieme",
+			"manufacturer": "Hettinger, Turcotte and Hettinger",
+			"model": "Ntg9",
+			"serialNumber": "YJBmXJa6GMwY",
+			"cpu": "extremely ha legal or sane",
+			"ram": 16,
+			"storage": 1024,
+			"hardwareId": "3bb0d656-f290-470c-8f91-6df1a14fc961",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Kristy_Raynor@gmail.com",
+			"lastCheckInDate": 1674740473022
+		},
+		{
+			"id": "344f27e1-c222-485f-af30-2941e290be6c",
+			"clientId": "Kuphal",
+			"manufacturer": "Becker - Parisian",
+			"model": "icKL",
+			"serialNumber": "ZWaCIjzSXjY9",
+			"cpu": "temperature injury remote yearningly coverall",
+			"ram": 8,
+			"storage": 64,
+			"hardwareId": "7012a114-fda8-44e9-ad4b-b976a3736099",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Camila13@gmail.com",
+			"lastCheckInDate": 1684276587482
+		},
+		{
+			"id": "4f49e921-0277-4f60-b7c0-cee5b41d2067",
+			"clientId": "Bednar",
+			"manufacturer": "Abshire and Sons",
+			"model": "y5o3",
+			"serialNumber": "QVOJY1hbcpxE",
+			"cpu": "ha that lieu lest pace",
+			"ram": 4,
+			"storage": 256,
+			"hardwareId": "f6e85fba-1d47-47e2-beef-f5f4a2da9cf5",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Enola_Frami@hotmail.com",
+			"lastCheckInDate": 1676908386360
+		},
+		{
+			"id": "c3fe8ca6-9d64-4b85-ad45-a701a29fab38",
+			"clientId": "Ullrich",
+			"manufacturer": "Flatley - Nitzsche",
+			"model": "zWJp",
+			"serialNumber": "hzsArEDwMGe0",
+			"cpu": "incidentally provision generally eek satellite",
+			"ram": 32,
+			"storage": 2048,
+			"hardwareId": "543e415f-ea84-416c-9232-c5582868fa63",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Gisselle.Kilback44@hotmail.com",
+			"lastCheckInDate": 1691452525856
+		},
+		{
+			"id": "21cedee7-f176-4f2a-8296-2db4853521b4",
+			"clientId": "Zieme",
+			"manufacturer": "Ratke - Dare",
+			"model": "JTUU",
+			"serialNumber": "yArGZIJQoKdJ",
+			"cpu": "bombard incidentally an framework balloonist",
+			"ram": 8,
+			"storage": 256,
+			"hardwareId": "9b8b3909-b5fe-4d12-8881-8f771ad85e11",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Gisselle.Nicolas@yahoo.com",
+			"lastCheckInDate": 1673270613978
+		},
+		{
+			"id": "24fdd137-0c8e-4e40-9daa-0827958b1011",
+			"clientId": "Ullrich",
+			"manufacturer": "Kutch Group",
+			"model": "V4Qz",
+			"serialNumber": "rYwL1vqcXJq4",
+			"cpu": "on lollop love yippee because",
+			"ram": 4,
+			"storage": 2048,
+			"hardwareId": "1768d1ec-32a4-4df2-8fe9-ec104b99b5a4",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Seamus66@hotmail.com",
+			"lastCheckInDate": 1685110294083
+		},
+		{
+			"id": "638f2a54-ae8d-448c-967b-9468d751c570",
+			"clientId": "Kuphal",
+			"manufacturer": "Bernier and Sons",
+			"model": "aadh",
+			"serialNumber": "6lPZSF593F5O",
+			"cpu": "forsaken at past cork upon",
+			"ram": 8,
+			"storage": 256,
+			"hardwareId": "dc385fc5-173d-4749-bd3a-3d7c543acc21",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Dylan39@yahoo.com",
+			"lastCheckInDate": 1669206032161
+		},
+		{
+			"id": "dc8e50b0-6d9d-49ea-92f8-b48c2597b256",
+			"clientId": "Ullrich",
+			"manufacturer": "Heidenreich Group",
+			"model": "25B0",
+			"serialNumber": "5Bh4DmvhcLRR",
+			"cpu": "kohlrabi honour for monastery daffodil",
+			"ram": 4,
+			"storage": 1024,
+			"hardwareId": "3d705bbe-7dca-4a64-812f-b00f672a0326",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Dejon_Sipes@hotmail.com",
+			"lastCheckInDate": 1688099473765
+		},
+		{
+			"id": "94024f0a-af2d-4f7c-bb77-4bf2a37a9983",
+			"clientId": "Ullrich",
+			"manufacturer": "Stanton LLC",
+			"model": "y4JK",
+			"serialNumber": "6efkj4qFyRfl",
+			"cpu": "meh busily till desktop inasmuch",
+			"ram": 2,
+			"storage": 1024,
+			"hardwareId": "3ac857a4-25a2-448b-8a5e-6626176029a5",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Elizabeth.Hahn@hotmail.com",
+			"lastCheckInDate": 1681795287656
+		},
+		{
+			"id": "6f6d9d4a-1f8c-4467-bdb6-b00c0bb79f78",
+			"clientId": "Halvorson",
+			"manufacturer": "Kuphal Group",
+			"model": "K9O5",
+			"serialNumber": "P29Ti8Xqfmdl",
+			"cpu": "hungrily polarization even apud crocus",
+			"ram": 64,
+			"storage": 64,
+			"hardwareId": "6be833e2-b1bb-4d33-adfa-d799a70d55fc",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Krystal.Lynch@gmail.com",
+			"lastCheckInDate": 1672210330368
+		},
+		{
+			"id": "1e1726c8-388d-4beb-9559-879d69df239a",
+			"clientId": "Zieme",
+			"manufacturer": "Corkery, Ankunding and Oberbrunner",
+			"model": "s8hR",
+			"serialNumber": "1QqMKXxrYqc0",
+			"cpu": "bleakly furthermore amidst evergreen unlike",
+			"ram": 16,
+			"storage": 128,
+			"hardwareId": "579375b6-53cb-4ed6-a10e-d92950ad8954",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Lue14@gmail.com",
+			"lastCheckInDate": 1694204510895
+		},
+		{
+			"id": "2e02665a-559b-4a0f-9278-b25b40da3184",
+			"clientId": "Ullrich",
+			"manufacturer": "Beahan, Schuster and Boehm",
+			"model": "UmJa",
+			"serialNumber": "zQfVCxHSt9dK",
+			"cpu": "threaten nutrition gee wisely ew",
+			"ram": 32,
+			"storage": 1024,
+			"hardwareId": "e04da485-33d1-4573-a823-59a43dc2879c",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Myrna54@hotmail.com",
+			"lastCheckInDate": 1678009641209
+		},
+		{
+			"id": "506396a3-d26d-49a0-b8ed-6398b7266270",
+			"clientId": "Huel",
+			"manufacturer": "Jenkins, Jones and O'Connell",
+			"model": "Umiy",
+			"serialNumber": "foWawqpKcuvd",
+			"cpu": "numb ew impartial barring refocus",
+			"ram": 64,
+			"storage": 2048,
+			"hardwareId": "0d1d7020-171a-48f6-9ba9-ebe3940f16a8",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Eve_Kirlin-Walsh@hotmail.com",
+			"lastCheckInDate": 1665655466990
+		},
+		{
+			"id": "48be1451-07bd-4688-a3b6-bdc219472202",
+			"clientId": "Kuphal",
+			"manufacturer": "Kutch, Schmeler and Hand",
+			"model": "UIf7",
+			"serialNumber": "jNhmYndD9x9p",
+			"cpu": "beside gah toward blah excepting",
+			"ram": 2,
+			"storage": 2048,
+			"hardwareId": "4c65c355-cce0-4b29-97e0-fe75b0731f97",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Carleton_Denesik-OKeefe@yahoo.com",
+			"lastCheckInDate": 1681199252884
+		},
+		{
+			"id": "70c2ac3d-0396-4057-a182-a6e81d306933",
+			"clientId": "Upton",
+			"manufacturer": "Littel Group",
+			"model": "ktBR",
+			"serialNumber": "vYL2OxBk5fZJ",
+			"cpu": "bleak oats pish to opportunity",
+			"ram": 8,
+			"storage": 256,
+			"hardwareId": "c47b5ff1-3d9f-4b1e-9dbc-cf4b905a2e10",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Lynn89@hotmail.com",
+			"lastCheckInDate": 1673591787446
+		},
+		{
+			"id": "4ffa061d-2279-4784-b098-854a29c4f88b",
+			"clientId": "Zieme",
+			"manufacturer": "Osinski - Cummerata",
+			"model": "rVyM",
+			"serialNumber": "so0c7sKsk8Mm",
+			"cpu": "until nor whoa plain excluding",
+			"ram": 4,
+			"storage": 64,
+			"hardwareId": "61e32ff7-f0dd-4c5d-8dca-8c92452004cd",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Arnulfo_Sipes38@yahoo.com",
+			"lastCheckInDate": 1685006442804
+		},
+		{
+			"id": "1e0c0cda-b350-4d0c-adbb-5fb81eef6409",
+			"clientId": "Parker",
+			"manufacturer": "Schultz and Sons",
+			"model": "7fdf",
+			"serialNumber": "o3fifso1mBsb",
+			"cpu": "beside lucky retrain groan commonly",
+			"ram": 16,
+			"storage": 128,
+			"hardwareId": "659746bb-2098-4ab9-9fd7-592ae6fe9357",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Art75@hotmail.com",
+			"lastCheckInDate": 1681419585323
+		},
+		{
+			"id": "6c904334-47f7-47d2-98ea-8b4124c815a0",
+			"clientId": "Huel",
+			"manufacturer": "Kreiger, Ward and Gusikowski",
+			"model": "9J2d",
+			"serialNumber": "EjREyOqxjulX",
+			"cpu": "unto suburban offensively mince duh",
+			"ram": 4,
+			"storage": 256,
+			"hardwareId": "09e19234-7e90-4cff-a993-39a5a58a2236",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Connor84@yahoo.com",
+			"lastCheckInDate": 1675188584759
+		},
+		{
+			"id": "0c685927-a74b-4949-8745-a5113ccc2843",
+			"clientId": "Zieme",
+			"manufacturer": "Cummings - Buckridge",
+			"model": "62sU",
+			"serialNumber": "GPUqBDZBQSUK",
+			"cpu": "hmph as ouch smog midst",
+			"ram": 16,
+			"storage": 64,
+			"hardwareId": "4f46294e-aca0-43c4-a4ea-92fd03e5bfd0",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Neha8@gmail.com",
+			"lastCheckInDate": 1685280443843
+		},
+		{
+			"id": "b298b841-a927-41f7-82cd-79497f0e1bd4",
+			"clientId": "Halvorson",
+			"manufacturer": "Rau - Hand",
+			"model": "QqoG",
+			"serialNumber": "Z1YN660bTYxx",
+			"cpu": "spurn till programming physically disseminate",
+			"ram": 8,
+			"storage": 256,
+			"hardwareId": "7437f89b-2426-4c72-995b-b69ccf09cce5",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Wyatt54@gmail.com",
+			"lastCheckInDate": 1670123741966
+		},
+		{
+			"id": "aff4f3a8-94aa-44b9-b2cb-de7b8d04f8ba",
+			"clientId": "Bednar",
+			"manufacturer": "Stamm - Pfannerstill",
+			"model": "6gSD",
+			"serialNumber": "Md8jU4GBfxyw",
+			"cpu": "bell apropos winding in rowing",
+			"ram": 4,
+			"storage": 2048,
+			"hardwareId": "40acad8c-5f98-4133-b411-197ae37080f0",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Trey_Sipes@gmail.com",
+			"lastCheckInDate": 1686027287041
+		},
+		{
+			"id": "df6183c8-5149-48a0-a921-c3bd05b8ac5c",
+			"clientId": "Upton",
+			"manufacturer": "Conroy - King",
+			"model": "UDK8",
+			"serialNumber": "YWfhNarbpPp0",
+			"cpu": "hastily achieve lest netsuke yuck",
+			"ram": 16,
+			"storage": 2048,
+			"hardwareId": "5975eec9-3386-418d-9ea1-8f3172dd7a6b",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Lucy_Hintz16@gmail.com",
+			"lastCheckInDate": 1669395997761
+		},
+		{
+			"id": "938024ff-fb30-4d85-b752-152f657d151e",
+			"clientId": "Upton",
+			"manufacturer": "Ferry, Price and Hintz",
+			"model": "EBmn",
+			"serialNumber": "7yViggFaGZBR",
+			"cpu": "slime round ick married parcel",
+			"ram": 2,
+			"storage": 64,
+			"hardwareId": "4dcbf840-a2fc-4b9b-8887-da1ac262df9c",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Dylan.Huels@hotmail.com",
+			"lastCheckInDate": 1674234737417
+		},
+		{
+			"id": "c6f6ea9d-936b-4db7-9cdc-6f7f7b48aedd",
+			"clientId": "Huel",
+			"manufacturer": "Wisozk and Sons",
+			"model": "eWHa",
+			"serialNumber": "9cTC5Fr4g3Yg",
+			"cpu": "meadow creek kissingly burglarize oof",
+			"ram": 16,
+			"storage": 512,
+			"hardwareId": "07a157d7-089c-4398-b159-8b01403c1f36",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Sam70@gmail.com",
+			"lastCheckInDate": 1686768965315
+		},
+		{
+			"id": "04520611-ac0b-49d3-96f6-6e27aa8b094e",
+			"clientId": "Parker",
+			"manufacturer": "Cronin, Huel and Schulist",
+			"model": "ITPs",
+			"serialNumber": "3sbUhzZ7vBl2",
+			"cpu": "natural anxious anarchist inasmuch active",
+			"ram": 32,
+			"storage": 2048,
+			"hardwareId": "24ecadad-ce55-4f1d-987d-70a6d77bd9ab",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Leonie35@yahoo.com",
+			"lastCheckInDate": 1693822784797
+		},
+		{
+			"id": "b3fbb087-642a-4af0-a999-e461abf74209",
+			"clientId": "Zieme",
+			"manufacturer": "Hickle Inc",
+			"model": "8FwB",
+			"serialNumber": "clk9erTH5I9k",
+			"cpu": "excluding uh-huh flan foolish hmph",
+			"ram": 32,
+			"storage": 128,
+			"hardwareId": "2f203c38-cd14-4857-8eb2-56125a28adda",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Enola.Upton@gmail.com",
+			"lastCheckInDate": 1678083818998
+		},
+		{
+			"id": "c612b64b-a2b0-482f-8f1d-3b1430a8845a",
+			"clientId": "Bednar",
+			"manufacturer": "Jacobs LLC",
+			"model": "VRq7",
+			"serialNumber": "BFvlcHWCnLFo",
+			"cpu": "accessorise buzz bloat cow particularise",
+			"ram": 32,
+			"storage": 64,
+			"hardwareId": "3b3bb6a0-5832-4c6b-bd7d-f4f572ab3756",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Maude.Konopelski@yahoo.com",
+			"lastCheckInDate": 1683490066810
+		},
+		{
+			"id": "21926747-b565-4b56-bc5d-b2aa296910e8",
+			"clientId": "Upton",
+			"manufacturer": "Quigley - Lemke",
+			"model": "HtCs",
+			"serialNumber": "zXcPQLe96iOW",
+			"cpu": "since mortify cheerfully notwithstanding extroverted",
+			"ram": 2,
+			"storage": 2048,
+			"hardwareId": "a758aff9-64e0-4d38-8c51-089e6a02eb2e",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Milan_Metz@yahoo.com",
+			"lastCheckInDate": 1670607659829
+		},
+		{
+			"id": "df826b28-c848-4740-aae0-7b20f8cc850b",
+			"clientId": "Upton",
+			"manufacturer": "Gleason, Predovic and Homenick",
+			"model": "KvIa",
+			"serialNumber": "bQA6n4mU2dgo",
+			"cpu": "deeply what drafty crossly apropos",
+			"ram": 32,
+			"storage": 64,
+			"hardwareId": "0c7b8b5f-d4d8-4f0e-8186-4f74255097d5",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Magdalen_Kovacek@yahoo.com",
+			"lastCheckInDate": 1664108509413
+		},
+		{
+			"id": "e6b36742-e352-49b9-a4e2-66446be16cae",
+			"clientId": "Bednar",
+			"manufacturer": "Zulauf Group",
+			"model": "8MU3",
+			"serialNumber": "3Gov43ESGBJQ",
+			"cpu": "cauliflower dense bah an wherever",
+			"ram": 4,
+			"storage": 64,
+			"hardwareId": "07d0a68d-2b6e-4373-83f5-3cee069fec3c",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Esta.Wiegand@gmail.com",
+			"lastCheckInDate": 1671735042227
+		},
+		{
+			"id": "15d0ab14-538b-41c4-a47e-109dffc673a0",
+			"clientId": "Gerhold",
+			"manufacturer": "Gottlieb Inc",
+			"model": "3fi8",
+			"serialNumber": "96HUI0Imobcv",
+			"cpu": "psst although beyond badge piercing",
+			"ram": 32,
+			"storage": 512,
+			"hardwareId": "e825230e-a001-40cd-b662-c886de7536e6",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Kitty_Altenwerth-Von@yahoo.com",
+			"lastCheckInDate": 1686655058441
+		},
+		{
+			"id": "7f5dff63-2028-4251-bedd-290a5f7c2e5a",
+			"clientId": "Zieme",
+			"manufacturer": "Turner Inc",
+			"model": "HDOn",
+			"serialNumber": "2mnEbsHtmyOm",
+			"cpu": "excited wasting woot after flat",
+			"ram": 8,
+			"storage": 512,
+			"hardwareId": "693544f0-2382-4972-9750-d7107b6b28fb",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Travon.Gerlach71@gmail.com",
+			"lastCheckInDate": 1684278774840
+		},
+		{
+			"id": "b5dffd7b-a161-410a-bf5d-e381c4cf34e7",
+			"clientId": "Zieme",
+			"manufacturer": "Corwin - Ziemann",
+			"model": "XKLu",
+			"serialNumber": "y5tIpUlTqK4b",
+			"cpu": "ha superficial restructure blah below",
+			"ram": 2,
+			"storage": 256,
+			"hardwareId": "ef404cf1-cf1e-48fc-aecf-b958385c6661",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Salvador55@yahoo.com",
+			"lastCheckInDate": 1671352695807
+		},
+		{
+			"id": "0b100ff3-8c82-4a08-8e87-93bf3aa09107",
+			"clientId": "Ullrich",
+			"manufacturer": "Funk - Stokes",
+			"model": "jGoM",
+			"serialNumber": "sXKrEWhiJ4A7",
+			"cpu": "puny duh furthermore amidst following",
+			"ram": 16,
+			"storage": 512,
+			"hardwareId": "3380bd1d-26ac-46cc-91b7-eea9d031a7d1",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Perry_Hyatt48@hotmail.com",
+			"lastCheckInDate": 1689602547993
+		},
+		{
+			"id": "e95c77c7-adbf-467e-8e16-1eba85f46757",
+			"clientId": "Upton",
+			"manufacturer": "Schuppe - Bergstrom",
+			"model": "ZvzE",
+			"serialNumber": "8YlHXGVgzRtl",
+			"cpu": "offensively wry phew eventually fib",
+			"ram": 16,
+			"storage": 512,
+			"hardwareId": "11392767-a592-4c78-aad7-ca77e751b22d",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Blair_Dietrich@yahoo.com",
+			"lastCheckInDate": 1670777803590
+		},
+		{
+			"id": "fbe04c8e-e41e-42d6-b269-3dda0123a8bc",
+			"clientId": "Gerhold",
+			"manufacturer": "Rath LLC",
+			"model": "Q1MW",
+			"serialNumber": "q7fxZ80ZqucT",
+			"cpu": "bleak skate anti hybridise tail",
+			"ram": 64,
+			"storage": 512,
+			"hardwareId": "bc74a529-e0cd-4738-9126-a2ca782ddcd0",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Lucie.Lebsack91@yahoo.com",
+			"lastCheckInDate": 1670481855370
+		},
+		{
+			"id": "648ecb1f-bb9a-48e7-9162-5c373ea07131",
+			"clientId": "Bednar",
+			"manufacturer": "Funk - Botsford",
+			"model": "oiaN",
+			"serialNumber": "eKdr4WGjaTqE",
+			"cpu": "ambience huzzah burden disguise loosely",
+			"ram": 16,
+			"storage": 4096,
+			"hardwareId": "9d142a9a-dd99-4bb2-9818-96d40aeb9ceb",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Raquel11@hotmail.com",
+			"lastCheckInDate": 1694468983854
+		},
+		{
+			"id": "c378f351-8afe-47ad-9e69-3c6e6c09f424",
+			"clientId": "Upton",
+			"manufacturer": "Parisian and Sons",
+			"model": "1JgO",
+			"serialNumber": "M9sG9WqOZA37",
+			"cpu": "whereas than vivaciously how uh-huh",
+			"ram": 4,
+			"storage": 1024,
+			"hardwareId": "6d4ac1d2-eb4f-409c-b0c4-b10af38380c0",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Terence_Kunde@yahoo.com",
+			"lastCheckInDate": 1692589376025
+		},
+		{
+			"id": "0257b516-276f-4b6c-96b6-03b447cb82f2",
+			"clientId": "Gerhold",
+			"manufacturer": "Fadel Group",
+			"model": "LotJ",
+			"serialNumber": "kR1MzbULrCXO",
+			"cpu": "until rue indeed port handicap",
+			"ram": 8,
+			"storage": 64,
+			"hardwareId": "c0a366e5-cc13-4017-ba4f-fb1d4424b8d0",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Dwight61@gmail.com",
+			"lastCheckInDate": 1669628928728
+		},
+		{
+			"id": "b4a0dcbf-08c2-4ee8-9876-3af957acf2de",
+			"clientId": "Upton",
+			"manufacturer": "Kirlin - Feil",
+			"model": "DlS6",
+			"serialNumber": "abUgLOtQztDg",
+			"cpu": "chronicle scotch grim over afford",
+			"ram": 32,
+			"storage": 1024,
+			"hardwareId": "5f81b412-27be-487d-9b9e-334365c327fb",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Jimmie.Rice72@yahoo.com",
+			"lastCheckInDate": 1665050913840
+		},
+		{
+			"id": "b122450f-1f86-4b60-a73f-d7580bb67a81",
+			"clientId": "Gerhold",
+			"manufacturer": "Sawayn, Bernier and Schmidt",
+			"model": "nZ2w",
+			"serialNumber": "XSMuCMuKgnhD",
+			"cpu": "unhealthy spry classic cackle tail",
+			"ram": 4,
+			"storage": 2048,
+			"hardwareId": "922f4d39-b89d-4bcb-a596-03fb7c18b1cb",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Manley.Jaskolski11@hotmail.com",
+			"lastCheckInDate": 1665474195121
+		},
+		{
+			"id": "46bb4066-c68e-43d2-afb0-6bd7ae021765",
+			"clientId": "Ullrich",
+			"manufacturer": "Graham - Emmerich",
+			"model": "eESe",
+			"serialNumber": "k2Ad4wD6ISXb",
+			"cpu": "victoriously wherever spacing incidence gosh",
+			"ram": 64,
+			"storage": 2048,
+			"hardwareId": "fdb88d5c-32a7-458c-a334-653a17010c70",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Isabella_Bins83@yahoo.com",
+			"lastCheckInDate": 1688248209820
+		},
+		{
+			"id": "cb241823-8434-4581-906e-d0a49915e204",
+			"clientId": "Bednar",
+			"manufacturer": "Mosciski Group",
+			"model": "NGtN",
+			"serialNumber": "xUfWE0lyiHGd",
+			"cpu": "though for hometown thorny fooey",
+			"ram": 4,
+			"storage": 4096,
+			"hardwareId": "96154a27-674a-4f90-acb5-40f2aaf6eaca",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Daniella73@hotmail.com",
+			"lastCheckInDate": 1693466983531
+		},
+		{
+			"id": "be905e40-3eaa-4be6-a2af-2f0b48b71a12",
+			"clientId": "Upton",
+			"manufacturer": "Koelpin, Rutherford and Feeney",
+			"model": "ODYv",
+			"serialNumber": "spbi5pebOBKf",
+			"cpu": "neutralise elicit righteously whoever opposite",
+			"ram": 32,
+			"storage": 128,
+			"hardwareId": "681ddb9b-6b68-41fb-aeab-0830d144a547",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Gabrielle43@gmail.com",
+			"lastCheckInDate": 1689263925133
+		},
+		{
+			"id": "121c9e19-ad14-4591-8e81-eb04f03aa939",
+			"clientId": "Kuphal",
+			"manufacturer": "Robel Inc",
+			"model": "sKiF",
+			"serialNumber": "dfzH042zWpbd",
+			"cpu": "plush sour unexpectedly ah coffin",
+			"ram": 32,
+			"storage": 1024,
+			"hardwareId": "6d1cd915-8939-494e-b041-33720e125da1",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Tony43@hotmail.com",
+			"lastCheckInDate": 1692804626242
+		},
+		{
+			"id": "bb397dd4-fe90-4796-b59d-ad71efec8589",
+			"clientId": "Upton",
+			"manufacturer": "Fadel, Lueilwitz and Larson",
+			"model": "7oi4",
+			"serialNumber": "GrGzZVwI7NEQ",
+			"cpu": "approach adjudicate meanwhile furiously substantial",
+			"ram": 32,
+			"storage": 128,
+			"hardwareId": "92e2dab5-9e53-45f5-8498-dd08d5de2a04",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Jacquelyn_Carroll@hotmail.com",
+			"lastCheckInDate": 1667689371605
+		},
+		{
+			"id": "09d8f5e2-0b37-4f39-a2bf-09cdfdb40735",
+			"clientId": "Upton",
+			"manufacturer": "Cormier, Towne and Hills",
+			"model": "nEkt",
+			"serialNumber": "evqWRDTWcXwI",
+			"cpu": "inside prize cousin midst shoehorn",
+			"ram": 2,
+			"storage": 512,
+			"hardwareId": "09ab1dd2-69d9-40b8-b5c0-3579bc17f260",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Johann_Reichel39@hotmail.com",
+			"lastCheckInDate": 1669565665970
+		},
+		{
+			"id": "470b9e01-8493-4a5d-b81a-1dff11f6f126",
+			"clientId": "Bednar",
+			"manufacturer": "Reilly - Price",
+			"model": "iwfS",
+			"serialNumber": "VuoY7e79YVgC",
+			"cpu": "beneath fast which drafty frayed",
+			"ram": 2,
+			"storage": 512,
+			"hardwareId": "394ba842-33ce-4198-8050-0fd477903c46",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Keith_Feeney@yahoo.com",
+			"lastCheckInDate": 1671328170838
+		},
+		{
+			"id": "5ba09aaa-c6c8-4e72-84cf-29992a3adc3d",
+			"clientId": "Huel",
+			"manufacturer": "Marvin - Bogan",
+			"model": "8Sxb",
+			"serialNumber": "7GRS2W0yfEGf",
+			"cpu": "acidly phew street swift throughout",
+			"ram": 32,
+			"storage": 2048,
+			"hardwareId": "27d87504-3354-4efb-88a6-8df82a7666bc",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Hector21@yahoo.com",
+			"lastCheckInDate": 1693829583033
+		},
+		{
+			"id": "55760959-99eb-41bd-bca8-6b8766057471",
+			"clientId": "Ullrich",
+			"manufacturer": "Bogisich - Von",
+			"model": "ug6g",
+			"serialNumber": "AWiIE2TyU6IR",
+			"cpu": "miserly detect since cutlet considering",
+			"ram": 2,
+			"storage": 512,
+			"hardwareId": "a2a34911-7bc9-43ed-8ceb-ed5fad316fe5",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Wendell.West@gmail.com",
+			"lastCheckInDate": 1694524905628
+		},
+		{
+			"id": "4948dcf4-d920-4909-9155-8fc81f6c800a",
+			"clientId": "Kuphal",
+			"manufacturer": "Kautzer Group",
+			"model": "voIM",
+			"serialNumber": "bmHMViyaSNZY",
+			"cpu": "from vacillate a approximate fox",
+			"ram": 4,
+			"storage": 512,
+			"hardwareId": "814292b5-d524-4955-b8ff-827c2308a138",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Bruce_Erdman92@hotmail.com",
+			"lastCheckInDate": 1685932312644
+		},
+		{
+			"id": "d5729d04-86cc-4708-946e-47d512a80ac8",
+			"clientId": "Huel",
+			"manufacturer": "Pfannerstill - MacGyver",
+			"model": "zpyq",
+			"serialNumber": "sDHrmt0vn3sR",
+			"cpu": "consequently solemnly of poll whoever",
+			"ram": 16,
+			"storage": 128,
+			"hardwareId": "843801de-9efc-406d-9f5c-a13ae8ba62aa",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Brenna_Heathcote38@gmail.com",
+			"lastCheckInDate": 1681339928838
+		},
+		{
+			"id": "97b38702-8bb1-4e5c-8cb7-85a65ff9fe7b",
+			"clientId": "Halvorson",
+			"manufacturer": "Nader, Carroll and Bernhard",
+			"model": "8Hz8",
+			"serialNumber": "o1EQdHTmV97L",
+			"cpu": "after nor smooth whoa immediately",
+			"ram": 4,
+			"storage": 256,
+			"hardwareId": "1c257422-f45f-49fc-a7ef-ad14f65f48e0",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Kaia.Little@hotmail.com",
+			"lastCheckInDate": 1674312020382
+		},
+		{
+			"id": "87c41eee-8368-4a5b-b442-4be7db408510",
+			"clientId": "Upton",
+			"manufacturer": "Dickens, Greenholt and Gibson",
+			"model": "rTzd",
+			"serialNumber": "qBvafAwAusIj",
+			"cpu": "finally once mull usefully babushka",
+			"ram": 8,
+			"storage": 128,
+			"hardwareId": "6869ac69-3f35-4144-848c-e518e2891329",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Greg_Boyle@gmail.com",
+			"lastCheckInDate": 1682346022015
+		},
+		{
+			"id": "b3714d85-7fd0-4411-86e4-6c7ea8d4066f",
+			"clientId": "Upton",
+			"manufacturer": "Kulas, Lockman and Funk",
+			"model": "ZhRV",
+			"serialNumber": "FGRIAjEDK8Nl",
+			"cpu": "woot pepperoni expel across sheet",
+			"ram": 2,
+			"storage": 256,
+			"hardwareId": "63fca8ec-4d94-4f68-bafe-3bb4de66473e",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Doris.Welch14@gmail.com",
+			"lastCheckInDate": 1681492576219
+		},
+		{
+			"id": "eb82f738-3f89-4a75-9106-f81eb7e6500c",
+			"clientId": "Halvorson",
+			"manufacturer": "Cole Inc",
+			"model": "Ci2T",
+			"serialNumber": "vJLkYtXQfEOc",
+			"cpu": "why disincentivize teeming usefully via",
+			"ram": 8,
+			"storage": 2048,
+			"hardwareId": "46a60b4f-b4cf-4255-80fa-0ff7325d3138",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Jaiden.Effertz@hotmail.com",
+			"lastCheckInDate": 1669932247565
+		},
+		{
+			"id": "b30275c7-d694-44b5-a2b5-54982dfce26a",
+			"clientId": "Kuphal",
+			"manufacturer": "Larkin, Prohaska and Bergnaum",
+			"model": "A3p9",
+			"serialNumber": "fgmjDYliVtI2",
+			"cpu": "bashfully between apud mad relieved",
+			"ram": 16,
+			"storage": 1024,
+			"hardwareId": "cffaf8fe-7926-43f3-984d-50a35b3bf0b8",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Stacy_Lakin@gmail.com",
+			"lastCheckInDate": 1673287468734
+		},
+		{
+			"id": "8ffea690-c3bc-482c-be69-c5f57925e2e9",
+			"clientId": "Kuphal",
+			"manufacturer": "Kshlerin - Prosacco",
+			"model": "0Fuf",
+			"serialNumber": "rIavnMh8AwQS",
+			"cpu": "wry not titanium surprisingly decentralize",
+			"ram": 4,
+			"storage": 4096,
+			"hardwareId": "7c7dee69-8d87-453f-ad48-3f8078d64cb4",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Justus_OReilly38@gmail.com",
+			"lastCheckInDate": 1694636465212
+		},
+		{
+			"id": "f1801816-22a2-4871-90f7-098fcb37532c",
+			"clientId": "Huel",
+			"manufacturer": "Wilderman and Sons",
+			"model": "QJhq",
+			"serialNumber": "CFlozVTLkigO",
+			"cpu": "depart ick thoughtfully eek install",
+			"ram": 16,
+			"storage": 128,
+			"hardwareId": "9a231441-eea4-45c3-be9a-060985811fc1",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Gust.Cronin@hotmail.com",
+			"lastCheckInDate": 1689148717024
+		},
+		{
+			"id": "0fa5bb5d-be20-48aa-89c8-de510e24a4e4",
+			"clientId": "Ullrich",
+			"manufacturer": "O'Reilly, Kohler and Kuvalis",
+			"model": "BSfj",
+			"serialNumber": "J9hqS5RDw1gu",
+			"cpu": "muster associate along irritating via",
+			"ram": 16,
+			"storage": 4096,
+			"hardwareId": "ab80f4be-9bec-4179-8434-3fd1dcccbc92",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Walter_Osinski@yahoo.com",
+			"lastCheckInDate": 1688058858766
+		},
+		{
+			"id": "14abadd3-2e33-449a-8c08-c3cee089d6ed",
+			"clientId": "Upton",
+			"manufacturer": "Ullrich, Langosh and Hickle",
+			"model": "mgEq",
+			"serialNumber": "5JPVK4yDZmLg",
+			"cpu": "crow ew inasmuch baggy season",
+			"ram": 64,
+			"storage": 4096,
+			"hardwareId": "45134673-a90b-426f-a9f7-467a4b2643a6",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Garfield.Flatley85@yahoo.com",
+			"lastCheckInDate": 1664804076252
+		},
+		{
+			"id": "bb1466aa-2ccb-46db-b84e-d2843644ad18",
+			"clientId": "Ullrich",
+			"manufacturer": "Dibbert, Paucek and Mohr",
+			"model": "sswQ",
+			"serialNumber": "rWHOI1z6qEFG",
+			"cpu": "oof carpet unpack panic er",
+			"ram": 64,
+			"storage": 128,
+			"hardwareId": "bd7662b6-ceb2-482f-9488-3141f4fd288b",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Boris.Klocko@gmail.com",
+			"lastCheckInDate": 1664134680111
+		},
+		{
+			"id": "3b97a76a-0111-45ad-8a6e-dacee77aed3c",
+			"clientId": "Kuphal",
+			"manufacturer": "Bode - Murray",
+			"model": "76Wn",
+			"serialNumber": "g0dvepd6CGe4",
+			"cpu": "depot above likely alarming acculturate",
+			"ram": 16,
+			"storage": 1024,
+			"hardwareId": "373be1e4-27b0-4386-b4ac-665d83916b7d",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Jermey.Green@hotmail.com",
+			"lastCheckInDate": 1673614550323
+		},
+		{
+			"id": "dafd3544-1263-4eca-ab73-0c885491da26",
+			"clientId": "Halvorson",
+			"manufacturer": "Dibbert, Legros and Schiller",
+			"model": "MWSQ",
+			"serialNumber": "9apTJF6heTo2",
+			"cpu": "but imprison aha titter despite",
+			"ram": 4,
+			"storage": 512,
+			"hardwareId": "9bf374aa-b9dd-4a17-9b93-8e71f2ea3fc0",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Zaria88@hotmail.com",
+			"lastCheckInDate": 1667928433163
+		},
+		{
+			"id": "225f3005-4e56-41b9-9d67-05281f411626",
+			"clientId": "Kuphal",
+			"manufacturer": "Purdy - Ortiz",
+			"model": "cqZX",
+			"serialNumber": "VL3w3KcZ5zno",
+			"cpu": "phew prescribe phew stag unload",
+			"ram": 2,
+			"storage": 1024,
+			"hardwareId": "62e263ed-a53c-4d00-b6c1-bf75f5721283",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Lazaro90@yahoo.com",
+			"lastCheckInDate": 1672424623032
+		},
+		{
+			"id": "011e446e-9eae-49be-8b94-4e3779cdf0b1",
+			"clientId": "Huel",
+			"manufacturer": "Nienow Group",
+			"model": "ts4T",
+			"serialNumber": "S0dFI1eERBAB",
+			"cpu": "jumbo circa hybridization photography punctuate",
+			"ram": 4,
+			"storage": 1024,
+			"hardwareId": "c3b7e543-144c-4e44-a9bb-7acd19f79b1b",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Davon72@gmail.com",
+			"lastCheckInDate": 1665054937871
+		},
+		{
+			"id": "f994eb2e-d940-44d0-b9be-3fd67295e92c",
+			"clientId": "Kuphal",
+			"manufacturer": "Watsica and Sons",
+			"model": "fhEz",
+			"serialNumber": "VYRKPLKckZF0",
+			"cpu": "oust though mishandle concerning ew",
+			"ram": 64,
+			"storage": 64,
+			"hardwareId": "77285547-0298-421d-ae29-f083608a8e59",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Eleazar79@gmail.com",
+			"lastCheckInDate": 1670416454938
+		},
+		{
+			"id": "a43df7ed-cc65-4518-a48d-087d98e163ea",
+			"clientId": "Ullrich",
+			"manufacturer": "Schiller Inc",
+			"model": "IzuL",
+			"serialNumber": "UGtQ7mACGDY6",
+			"cpu": "drat nicely fully till viciously",
+			"ram": 4,
+			"storage": 64,
+			"hardwareId": "df63afe8-e405-4af8-a91a-005817a45f83",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Fritz65@hotmail.com",
+			"lastCheckInDate": 1682277465751
+		},
+		{
+			"id": "5d372497-90b9-4eb4-b871-7e9d06d4928b",
+			"clientId": "Kuphal",
+			"manufacturer": "Weimann - Bernhard",
+			"model": "PoCJ",
+			"serialNumber": "kCr6bEyTUhTR",
+			"cpu": "tightly ick webinar adventurously old-fashioned",
+			"ram": 2,
+			"storage": 128,
+			"hardwareId": "66a580a8-6253-4697-a2fd-41b132e1d4c2",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Isadore_Kiehn98@hotmail.com",
+			"lastCheckInDate": 1672688569518
+		},
+		{
+			"id": "8e07f9a4-d2ab-4c9e-9210-8c751c1f3030",
+			"clientId": "Halvorson",
+			"manufacturer": "Herzog, Wolf and Doyle",
+			"model": "pjzi",
+			"serialNumber": "u1yE8g6LEW7G",
+			"cpu": "beset under whereas gosh underneath",
+			"ram": 8,
+			"storage": 128,
+			"hardwareId": "5c447689-834b-4438-b7c2-9532cd1913b1",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Emilie94@hotmail.com",
+			"lastCheckInDate": 1688681530728
+		},
+		{
+			"id": "82ae4a54-b839-4a46-a821-e9d8d57e0a69",
+			"clientId": "Parker",
+			"manufacturer": "Schaden, Hermiston and Gerlach",
+			"model": "oagS",
+			"serialNumber": "bIMFpKIZmuSS",
+			"cpu": "glucose for up grimace intensely",
+			"ram": 4,
+			"storage": 256,
+			"hardwareId": "0df61f08-135b-4869-a504-7802ebd1d882",
+			"security": {
+				"firewall": true,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Sherman.Luettgen16@gmail.com",
+			"lastCheckInDate": 1668084092883
+		},
+		{
+			"id": "20f9be9f-1ad3-475b-9b3a-d6d5ad5b4fa5",
+			"clientId": "Kuphal",
+			"manufacturer": "Armstrong, Waters and Schowalter",
+			"model": "wFef",
+			"serialNumber": "R7IM4uvTmovy",
+			"cpu": "aside cheerfully mortally stealthily between",
+			"ram": 16,
+			"storage": 256,
+			"hardwareId": "c2f35fbd-a3f0-495e-aa64-a763dba9c1ed",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Glenda_Littel9@yahoo.com",
+			"lastCheckInDate": 1691332696063
+		},
+		{
+			"id": "69d4152c-3145-48d2-9476-97a6f33e43f9",
+			"clientId": "Ullrich",
+			"manufacturer": "Kub LLC",
+			"model": "ZOgG",
+			"serialNumber": "RvMHyfqwOb14",
+			"cpu": "apropos unwelcome unto upon brr",
+			"ram": 8,
+			"storage": 64,
+			"hardwareId": "9ad56d6e-b5d7-411e-84b1-c1bd294bb418",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Abbey.Marquardt@gmail.com",
+			"lastCheckInDate": 1682645362283
+		},
+		{
+			"id": "8e4846e5-ab7f-4df8-998b-ebf91a00d34a",
+			"clientId": "Bednar",
+			"manufacturer": "Reilly - Pfeffer",
+			"model": "Lrk7",
+			"serialNumber": "upPbdUMj9iGM",
+			"cpu": "of surprisingly below watchmaker psst",
+			"ram": 32,
+			"storage": 512,
+			"hardwareId": "4f92f83b-793d-415f-b9ad-fb8ea6dd04dc",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Sim49@yahoo.com",
+			"lastCheckInDate": 1687962655116
+		},
+		{
+			"id": "2d4a0da7-0db6-42b4-974e-4fa41633f506",
+			"clientId": "Bednar",
+			"manufacturer": "Bernier - Skiles",
+			"model": "XxCn",
+			"serialNumber": "jue1HdBcUSVF",
+			"cpu": "when provided aw visa measly",
+			"ram": 4,
+			"storage": 1024,
+			"hardwareId": "7d5447e8-b5f8-43eb-82ff-25dfbb01cdcd",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": false
+			},
+			"user": "Bonnie29@yahoo.com",
+			"lastCheckInDate": 1672001482361
+		},
+		{
+			"id": "9f2d5599-711c-4467-9452-2790bc40d589",
+			"clientId": "Upton",
+			"manufacturer": "Ritchie and Sons",
+			"model": "Stxr",
+			"serialNumber": "s7ZibhbEip95",
+			"cpu": "ew hmph yieldingly greens heal",
+			"ram": 16,
+			"storage": 1024,
+			"hardwareId": "6e16b0b5-b5ea-4dfd-8931-30c20c9462d4",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Marlene.VonRueden@hotmail.com",
+			"lastCheckInDate": 1681040672092
+		},
+		{
+			"id": "a3fb9ae5-39cd-45e6-9783-df86bcc4903f",
+			"clientId": "Bednar",
+			"manufacturer": "Mohr, Greenholt and Halvorson",
+			"model": "7j2o",
+			"serialNumber": "4nhoDrJHVyIM",
+			"cpu": "gadzooks mortify obstacle unexpectedly boar",
+			"ram": 4,
+			"storage": 256,
+			"hardwareId": "4a4fe404-8758-4982-890e-8d4cb339a6f7",
+			"security": {
+				"firewall": false,
+				"antivirus": true,
+				"encryption": false
+			},
+			"user": "Alta.Baumbach2@yahoo.com",
+			"lastCheckInDate": 1684441899451
+		},
+		{
+			"id": "0b3b6257-0736-4069-819a-a1b0a8b504e4",
+			"clientId": "Gerhold",
+			"manufacturer": "Cremin Inc",
+			"model": "Jor9",
+			"serialNumber": "b1U1t62CC1pw",
+			"cpu": "fooey crushing bleakly budget imaginative",
+			"ram": 32,
+			"storage": 4096,
+			"hardwareId": "2d551c31-d156-47a7-832d-1488f0646fab",
+			"security": {
+				"firewall": true,
+				"antivirus": true,
+				"encryption": true
+			},
+			"user": "Lia90@gmail.com",
+			"lastCheckInDate": 1690684916725
+		},
+		{
+			"id": "37a8c9bb-2870-44eb-aab2-e3511254c14f",
+			"clientId": "Zieme",
+			"manufacturer": "Koch Group",
+			"model": "K7AM",
+			"serialNumber": "8uSpPtr5eFHR",
+			"cpu": "oh abnormally swim conservative joshingly",
+			"ram": 8,
+			"storage": 128,
+			"hardwareId": "bf593c0d-7647-4007-bc8f-279f5735cfb4",
+			"security": {
+				"firewall": false,
+				"antivirus": false,
+				"encryption": true
+			},
+			"user": "Luis73@yahoo.com",
+			"lastCheckInDate": 1668535525328
+		}
+	]
 }

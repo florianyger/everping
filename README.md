@@ -36,3 +36,7 @@ No time to debug, we will import files the old way.
 No time for cleaning useless files, sorry :)
 
 Put a Ant Design button on page, and a fake test, all works !
+
+## Third step - generate devices (15 min)
+
+A little help from this post : https://stackoverflow.com/a/62566822
