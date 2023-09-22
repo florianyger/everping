@@ -45,3 +45,13 @@ A little help from this post : https://stackoverflow.com/a/62566822
 
 Launch in parallel back and front end in one command, thank you internet :
 https://stackoverflow.com/a/30950298
+
+## Fifth step - display serial number and security state (70 min)
+
+I made a component ComputerFleet component which take clientId, and retrieve devices.
+
+Then it displays all devices in an Antd Table.
+
+I wrote a function to find missing securities in a device, i put some unit tests on this function.
+
+Then i displayed icons as asked.

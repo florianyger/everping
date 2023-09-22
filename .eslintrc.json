@@ -30,7 +30,8 @@
           "**/*.test.tsx"
         ]
       }
-    ]
+    ],
+    "import/order": 0
   },
   "settings": {
     "import/resolver": {

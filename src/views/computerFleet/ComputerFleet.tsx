@@ -1,4 +1,5 @@
 import type { Device } from '@controllers/types';
+import { Icon } from '@iconify/react';
 
 import type { FC } from 'react';
 import { useEffect, useState } from 'react';
@@ -9,6 +10,7 @@ import axios from 'axios';
 import './ComputerFleet.scss';
 import { ComputerFleetPropTypes } from './ComputerFleet.types';
 import type { ComputerFleetProps } from './ComputerFleet.types';
+import { hasMissingSecurities } from '@/utils/DeviceUtils';
 
 const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
   const [devices, setDevices] = useState<Device[]>();
@@ -20,6 +22,7 @@ const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
   const dataSource = devices?.map((device) => ({
     key: device.id,
     serialNumber: device.serialNumber,
+    securityStatus: hasMissingSecurities(device),
   }));
 
   const columns = [
@@ -27,6 +30,32 @@ const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
       title: 'Serial Number',
       dataIndex: 'serialNumber',
       key: 'serialNumber',
+    },
+    {
+      title: 'Security Status',
+      dataIndex: 'securityStatus',
+      key: 'securityStatus',
+      render: (value: false | (keyof Device['security'])[]) => {
+        if (!Array.isArray(value) && !value) {
+          return <Icon color="grey" icon="mdi:clock" />;
+        }
+
+        if (value.length === 0) {
+          return <Icon color="green" icon="mdi:shield-check" />;
+        }
+
+        return value.map((key) => {
+          if (key === 'firewall') {
+            return <Icon key="firewall" color="red" icon="mdi:wall" />;
+          }
+
+          if (key === 'antivirus') {
+            return <Icon key="antivirus" color="red" icon="mdi:antivirus" />;
+          }
+
+          return <Icon key="lock" color="red" icon="mdi:lock-off" />;
+        });
+      },
     },
   ];
 

@@ -20,7 +20,7 @@ const generateDevice = () => {
       encryption: faker.datatype.boolean(),
     },
     user: faker.internet.email(),
-    lastCheckInDate: faker.date.past().getTime()
+    lastCheckInDate: faker.date.recent({ days: 45 }).getTime()
   };
 };
 

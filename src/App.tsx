@@ -10,7 +10,7 @@ function App() {
     <ThemeProvider>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<ComputerFleet clientId="Ullrich" />} />
+          <Route index element={<ComputerFleet clientId="Gerhold" />} />
         </Route>
       </Routes>
     </ThemeProvider>
