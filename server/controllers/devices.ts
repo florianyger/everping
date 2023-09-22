@@ -1,13 +1,16 @@
-import type { Device } from '@controllers/types';
+import type { Device, DeviceList } from '@controllers/types';
 
 import type { Request, Response } from 'express';
 import fs from 'fs/promises';
 
 const dataPath = 'data/devices.json';
 
-export const getDevice = async (req: Request, res: Response) => {
+export const getCustomerDevices = async (req: Request, res: Response) => {
   try {
-    let device = {};
+    const deviceList: DeviceList = {
+      results: [],
+      total: 0,
+    };
     const deviceId = req.params.id;
     const data = await fs.readFile(dataPath, {
       encoding: 'utf8',
@@ -15,11 +18,15 @@ export const getDevice = async (req: Request, res: Response) => {
 
     if (data.length > 0) {
       const results: { devices: Device[] } = JSON.parse(data);
-      device = [...results.devices.filter((deviceResult) => deviceResult.clientId === deviceId)];
+      deviceList.results = [...results.devices.filter((deviceResult) => deviceResult.clientId === deviceId)];
+      deviceList.total = deviceList.results.length;
+      if (req.query.start && req.query.end) {
+        deviceList.results = deviceList.results.slice(Number(req.query.start), Number(req.query.end));
+      }
     }
 
     setTimeout(() => {
-      res.status(200).send(device);
+      res.status(200).send(deviceList);
     }, 10);
   } catch (error) {
     res.status(500).send(`An error occurred when fetching the device with id ${req.params.id}`);
@@ -27,5 +34,5 @@ export const getDevice = async (req: Request, res: Response) => {
 };
 
 export default {
-  getDevice,
+  getCustomerDevices,
 };

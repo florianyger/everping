@@ -1,9 +1,9 @@
-import { getDevice } from '../controllers/devices';
+import { getCustomerDevices } from '../controllers/devices';
 
 import type { Router } from 'express';
 
 const deviceRoutes = (router: Router) => {
-  router.get('/devices/:id', getDevice);
+  router.get('/devices/:id', getCustomerDevices);
 
   return router;
 };

@@ -5,7 +5,7 @@ import useLocalStorageState from '@/hooks/useLocalStorageState';
 
 type ThemeOption = 'dark' | 'light';
 
-const initialValue: ThemeOption = 'dark';
+const initialValue: ThemeOption = 'light';
 
 interface ThemeContextValue {
   theme: ThemeOption;

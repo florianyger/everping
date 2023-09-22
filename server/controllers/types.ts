@@ -16,3 +16,8 @@ export interface Device {
   user: string;
   lastCheckInDate: number;
 }
+
+export interface DeviceList {
+  results: Device[];
+  total: number;
+}

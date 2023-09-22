@@ -55,3 +55,9 @@ Then it displays all devices in an Antd Table.
 I wrote a function to find missing securities in a device, i put some unit tests on this function.
 
 Then i displayed icons as asked.
+
+## Sixth step - Add pagination (20 min)
+
+On back end, i made a small pagination feature, based on slicing results.
+
+I display it quickly with Ant Design

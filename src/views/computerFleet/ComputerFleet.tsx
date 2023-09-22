@@ -1,10 +1,11 @@
-import type { Device } from '@controllers/types';
+import type { Device, DeviceList } from '@controllers/types';
 import { Icon } from '@iconify/react';
 
 import type { FC } from 'react';
 import { useEffect, useState } from 'react';
 
 import { Table } from 'antd';
+import { DEFAULT_PAGE_SIZE } from 'antd/lib/table/hooks/usePagination';
 import axios from 'axios';
 
 import './ComputerFleet.scss';
@@ -14,10 +15,21 @@ import { hasMissingSecurities } from '@/utils/DeviceUtils';
 
 const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
   const [devices, setDevices] = useState<Device[]>();
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [total, setTotal] = useState<number>(0);
 
   useEffect(() => {
-    axios.get<Device[]>(`http://localhost:8080/devices/${clientId}`).then((response) => setDevices(response.data));
-  }, [clientId]);
+    axios
+      .get<DeviceList>(
+        `http://localhost:8080/devices/${clientId}?start=${(currentPage - 1) * DEFAULT_PAGE_SIZE}&end=${
+          currentPage * DEFAULT_PAGE_SIZE
+        }`
+      )
+      .then((response) => {
+        setDevices(response.data.results);
+        setTotal(response.data.total);
+      });
+  }, [currentPage, clientId]);
 
   const dataSource = devices?.map((device) => ({
     key: device.id,
@@ -59,7 +71,18 @@ const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
     },
   ];
 
-  return <Table className="computer-fleet" dataSource={dataSource} columns={columns} />;
+  return (
+    <Table
+      className="computer-fleet"
+      dataSource={dataSource}
+      columns={columns}
+      pagination={{
+        total,
+        onChange: (current) => setCurrentPage(current || 1),
+        showTotal: (_total, range) => `${range[0]}-${range[1]} of ${_total} items`,
+      }}
+    />
+  );
 };
 
 ComputerFleet.displayName = 'ComputerFleet';
