@@ -71,6 +71,10 @@ const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
     },
   ];
 
+  const healthyDevicesCount = dataSource
+    ? dataSource.filter((data) => Array.isArray(data.securityStatus) && data.securityStatus.length === 0).length
+    : 0;
+
   return (
     <Table
       className="computer-fleet"
@@ -81,6 +85,7 @@ const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
         onChange: (current) => setCurrentPage(current || 1),
         showTotal: (_total, range) => `${range[0]}-${range[1]} of ${_total} items`,
       }}
+      title={() => `${100 * (healthyDevicesCount / (dataSource?.length || 0))}% healthy devices`}
     />
   );
 };

@@ -61,3 +61,7 @@ Then i displayed icons as asked.
 On back end, i made a small pagination feature, based on slicing results.
 
 I display it quickly with Ant Design
+
+## Seventh step - Add healthy devices percents (10 min)
+
+Small computing displayed in table header. Not really optimized that being said.
