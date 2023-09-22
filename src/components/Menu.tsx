@@ -12,7 +12,7 @@ import './Menu.scoped.scss';
 function Menu() {
   const { theme, toggleTheme } = useTheme();
 
-  const routes = { '/': 'Home', '/about': 'About' };
+  const routes = { '/': 'Home' };
 
   return (
     <nav>
