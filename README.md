@@ -1,5 +1,14 @@
 # Everping - Florian Yger
 
+```
+npm i
+npm run start
+
+
+(To generate a new JSON)
+node data/generateDevices.js
+```
+
 ## First step - reading and understanding subject (10 min)
 
 Backend : Simple JSON file served by API, with a setTimeout
@@ -65,3 +74,15 @@ I display it quickly with Ant Design
 ## Seventh step - Add healthy devices percents (10 min)
 
 Small computing displayed in table header. Not really optimized that being said.
+
+## Final step - Add clientId select (15 min)
+
+I followed instructions to make one api endpoint, so devices/id return also clientIds list, but i don't think it's a good idea.
+
+I put it in a antd select.
+
+## Epilogue
+
+I'm running out of time, so i will not implement security status filtering.
+
+Moreover, i must add some time i've taken to gradually wrote this file.

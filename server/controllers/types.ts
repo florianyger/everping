@@ -19,5 +19,6 @@ export interface Device {
 
 export interface DeviceList {
   results: Device[];
+  clientIds: Device['clientId'][];
   total: number;
 }

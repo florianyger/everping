@@ -4,32 +4,34 @@ import { Icon } from '@iconify/react';
 import type { FC } from 'react';
 import { useEffect, useState } from 'react';
 
-import { Table } from 'antd';
+import { Select, Table } from 'antd';
 import { DEFAULT_PAGE_SIZE } from 'antd/lib/table/hooks/usePagination';
 import axios from 'axios';
 
-import './ComputerFleet.scss';
 import { ComputerFleetPropTypes } from './ComputerFleet.types';
 import type { ComputerFleetProps } from './ComputerFleet.types';
 import { hasMissingSecurities } from '@/utils/DeviceUtils';
 
 const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
   const [devices, setDevices] = useState<Device[]>();
+  const [currentClientId, setCurrentClientId] = useState<Device['clientId']>(clientId);
+  const [clientIds, setClientIds] = useState<Device['clientId'][]>([]);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [total, setTotal] = useState<number>(0);
 
   useEffect(() => {
     axios
       .get<DeviceList>(
-        `http://localhost:8080/devices/${clientId}?start=${(currentPage - 1) * DEFAULT_PAGE_SIZE}&end=${
+        `http://localhost:8080/devices/${currentClientId}?start=${(currentPage - 1) * DEFAULT_PAGE_SIZE}&end=${
           currentPage * DEFAULT_PAGE_SIZE
         }`
       )
       .then((response) => {
+        setClientIds(response.data.clientIds);
         setDevices(response.data.results);
         setTotal(response.data.total);
       });
-  }, [currentPage, clientId]);
+  }, [currentPage, currentClientId]);
 
   const dataSource = devices?.map((device) => ({
     key: device.id,
@@ -76,17 +78,31 @@ const ComputerFleet: FC<ComputerFleetProps> = ({ clientId }) => {
     : 0;
 
   return (
-    <Table
-      className="computer-fleet"
-      dataSource={dataSource}
-      columns={columns}
-      pagination={{
-        total,
-        onChange: (current) => setCurrentPage(current || 1),
-        showTotal: (_total, range) => `${range[0]}-${range[1]} of ${_total} items`,
-      }}
-      title={() => `${100 * (healthyDevicesCount / (dataSource?.length || 0))}% healthy devices`}
-    />
+    <div>
+      <Select
+        value={currentClientId}
+        onSelect={(value) => {
+          setCurrentClientId(value);
+          setCurrentPage(1);
+        }}
+        options={clientIds.map((id) => ({
+          value: id,
+          label: id,
+        }))}
+      />
+      <Table
+        className="computer-fleet"
+        dataSource={dataSource}
+        columns={columns}
+        pagination={{
+          total,
+          current: currentPage,
+          onChange: (current) => setCurrentPage(current || 1),
+          showTotal: (_total, range) => `${range[0]}-${range[1]} of ${_total} items`,
+        }}
+        title={() => `${100 * (healthyDevicesCount / (dataSource?.length || 0))}% healthy devices`}
+      />
+    </div>
   );
 };
 
